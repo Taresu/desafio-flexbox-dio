@@ -1,0 +1,53 @@
+* {
+    background-color: whitesmoke;
+}
+
+.flexbox {
+    display: flex;
+    background-color: white;
+    width: 300px;
+    height: 500px;
+    border: 1px black solid;
+    margin: auto;
+    padding: 10px;
+    flex-direction: column;
+}
+
+#logotype {
+    display: flex;
+    font-family: 'MuseoModerno', cursive;
+    font-size: 30px;
+    color: blue;
+    text-shadow: 4px 1px 3px blueviolet;
+    background-color: white;
+    justify-content: center;
+}
+
+#dados {
+    display: flex;
+    width: 300px;
+    height: 90px;
+    border: 1px solid;
+    background-color: white;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 7px;
+    background-color: whitesmoke;
+    height: 30px;
+    border: 1px solid;
+    border-radius: 3px;
+}
+
+.campo p {
+    font-size: small;
+    color: gray;
+}
+
+.btn {
+    background-color: lightskyblue;
+    width: 100px;
+}
