@@ -15,20 +15,21 @@
 <body>
     <main class="wrapper">
         <article class="smartphone">
-            <img src="/images/smartphone.png" width="300px" alt="smartphone">
+            <img src="images/smartphone.png" width="300px" alt="smartphone">
         </article>
-        <article class="flexbox">
+        <article class="login">
             <h1 id="logotype"> Studygram </h1>
-            <section id="dados">
-                <div class="campo">
-                    <p> Telefone, nome de usuário ou email </p>
-                </div>
-                <div class="campo">
-                    <p> Senha </p>
-                </div>
-            </section>
+            <div id="data">
+                <form autocomplete="off">
+                    <fieldset>
+                        <input type="text" placeholder="Telefone, nome de usuário ou email" name="email" required>
+                        <input type="password" placeholder="Senha" name="email" required>
+                    </fieldset>
+                </form>
+            </div>
+
             <div>
-                <button class="btn"> Entrar </button>
+                <button type="submit" class="btn"> Entrar </button>
             </div>
         </article>
     </main>

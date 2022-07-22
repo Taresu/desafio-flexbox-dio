@@ -1,74 +1,65 @@
-* {
-    background-color: whitesmoke;
-}
-
 .wrapper {
     display: flex;
-    margin: auto;
     margin-top: 100px;
-    width: 700px;
-    height: 600px;
-    border: 1px black solid;
+    width: 1000px;
+    height: 500px;
+    background-image: url(images/study.jpg);
+    background-position: center;
+    background-size: 610px;
+    background-repeat: repeat-y;
 }
 
 .smartphone {
     margin: auto;
 }
 
-.smartphone img {
-    background-image: url("studygram.png");
-    border: 1px solid;
-}
+.smartphone img {}
 
-.flexbox {
+.login {
     display: flex;
     background-color: white;
-    width: 300px;
-    height: 500px;
-    border: 1px black solid;
+    width: 350px;
+    height: 400px;
+    border: 2px black solid;
     margin: auto;
-    padding: 10px;
+    padding: 20px;
     flex-direction: column;
+}
+
+ul {
+    list-style: none;
 }
 
 #logotype {
     display: flex;
     font-family: 'Bungee Shade', cursive;
-    font-size: 25px;
+    font-size: 30px;
     color: darkblue;
     background-color: white;
     justify-content: center;
 }
 
-#dados {
-    display: flex;
-    width: 300px;
-    height: 90px;
-    border: 1px solid;
+#data {
     background-color: white;
 }
 
-.campo {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    margin: 7px;
-    background-color: whitesmoke;
-    height: 30px;
-    border: 1px solid;
-    border-radius: 3px;
-}
 
-.campo p {
-    font-size: small;
-    color: gray;
+/* Full-width input fields */
+
+input[type=text],
+input[type=password] {
+    width: 290px;
+    padding: 15px;
+    margin: 5px 0 15px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
 }
 
 .btn {
     background-color: darkblue;
     color: white;
-    width: 300px;
-    justify-content: center;
-    margin-top: 15px;
-    border-radius: 3px;
+    width: 350px;
+    height: 35px;
+    border-radius: 5px;
 }
