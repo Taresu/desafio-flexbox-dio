@@ -2,6 +2,24 @@
     background-color: whitesmoke;
 }
 
+.wrapper {
+    display: flex;
+    margin: auto;
+    margin-top: 100px;
+    width: 700px;
+    height: 600px;
+    border: 1px black solid;
+}
+
+.smartphone {
+    margin: auto;
+}
+
+.smartphone img {
+    background-image: url("studygram.png");
+    border: 1px solid;
+}
+
 .flexbox {
     display: flex;
     background-color: white;
@@ -15,10 +33,9 @@
 
 #logotype {
     display: flex;
-    font-family: 'MuseoModerno', cursive;
-    font-size: 30px;
-    color: blue;
-    text-shadow: 4px 1px 3px blueviolet;
+    font-family: 'Bungee Shade', cursive;
+    font-size: 25px;
+    color: darkblue;
     background-color: white;
     justify-content: center;
 }
@@ -48,6 +65,10 @@
 }
 
 .btn {
-    background-color: lightskyblue;
-    width: 100px;
+    background-color: darkblue;
+    color: white;
+    width: 300px;
+    justify-content: center;
+    margin-top: 15px;
+    border-radius: 3px;
 }
