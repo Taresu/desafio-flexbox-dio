@@ -7,6 +7,8 @@
     background-position: center;
     background-size: 610px;
     background-repeat: repeat-y;
+    margin: auto;
+    margin-top: 150px;
 }
 
 .smartphone {
@@ -20,10 +22,14 @@
     background-color: white;
     width: 350px;
     height: 400px;
-    border: 2px black solid;
+    border: 1px gray solid;
     margin: auto;
     padding: 20px;
     flex-direction: column;
+}
+
+.login h5 {
+    color: gray;
 }
 
 ul {
@@ -41,6 +47,7 @@ ul {
 
 #data {
     background-color: white;
+    border: none;
 }
 
 
@@ -50,16 +57,77 @@ input[type=text],
 input[type=password] {
     width: 290px;
     padding: 15px;
-    margin: 5px 0 15px 0;
+    margin: 5px 0 5px 0;
     display: inline-block;
     border: none;
     background: #f1f1f1;
 }
 
 .btn {
-    background-color: darkblue;
+    background-color: rgba(0, 42, 250, 0.47);
+    opacity: 30%;
     color: white;
     width: 350px;
     height: 35px;
     border-radius: 5px;
+    margin-top: 10px;
+}
+
+.or {
+    display: flex;
+    flex-direction: row;
+}
+
+.or hr {
+    display: flex;
+    width: 150px;
+    height: 0px;
+    background-color: gray;
+    margin: auto;
+}
+
+.social {
+    display: flex;
+    color: darkblue;
+    align-items: center;
+    margin: auto;
+}
+
+.social img {
+    width: 30px;
+    height: 30px;
+}
+
+.login a,
+.login h5 {
+    text-decoration: none;
+    margin: auto;
+}
+
+.signup {
+    display: flex;
+    color: grey;
+    width: 330px;
+    border: 1px solid;
+    padding-left: 20px;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.signup p {
+    color: black;
+}
+
+.signup a {
+    color: blue;
+    text-decoration: none;
+}
+
+.stores {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    padding: 10px;
+    align-items: stretch;
 }
